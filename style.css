@@ -1,0 +1,113 @@
+body{
+   border: darkgreen solid;
+   margin: 20px 20px 20px 20px;
+   height: auto;
+}
+
+.navigation{
+margin: auto;
+height: 80px;
+padding: 30px;
+
+}
+nav{
+display: flex;
+flex-direction: row;
+padding: 30px;
+justify-content: center;
+
+}
+ul{
+   margin: 10px ;
+
+}
+
+.middle{
+    background-image: url(./haircut.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+   flex-direction: column;
+   justify-content: right;
+   align-items: flex-end;
+   margin: 10px;
+   border: 1px solid
+   
+   
+}
+li{
+    padding: 10px;
+    background-color: rgb(17, 16, 16);
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 85px;
+    color: white;
+    
+}
+.bottom{
+    height: 50px;
+   
+
+}  
+ h1{
+     font-style: oblique;
+     text-decoration: beige;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     border: 2px;
+     margin: 10px ;
+ }   
+  .image{
+     padding: 10px;
+ }  
+    
+
+ .has-image{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding: 10px;
+     margin: 10px;
+     align-content: center;
+ }
+ 
+
+ .icon{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    
+     background-color: black;
+    
+ }
+ 
+ i{
+    align-content: space-between; 
+    padding: 10px; 
+    border: 1px solid;
+    margin: 10px;
+    color: white;
+   
+ }
+ 
+h3{
+    margin-left: 100px;
+}  
+    h2{
+        
+        padding: 10px;
+    } 
+p{
+   color: white;
+   margin-right: 380px;
+    margin-bottom: -100px;
+}
+h2{
+    color:black;
+    background-color: white;
+}
