@@ -4,25 +4,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+ h1{ align-content: center;
+     justify-content: center;
+     background-size: contain;
+     background-color: black;
+     color:white
+ 
+     
+     
+ }   
+</style>
+<style>
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    align-content: center;
+ 
+}
+
+</style>
+<style>
+    body{
+  background-color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    min-width: 960px;
+    padding: 0; 
+    } 
+</style>
 <body>
-    <form>
-        <section class="has form">
+   
+    
+       <form> 
+            <section class="has form">
+                <h1>LET'S KEEP IN TOUCH</h1>
             <form action="/action_page">
-                <p>Got a question ? We'd love to help <p><br>
-                <p>
-                <label for="name">Name</label>
-                <input type="text">
+                <input type="text" id= Name value="Name">
               </p>
               <p>
-                <label for="Email"> Email</label>
-                <input type="text"id="Email" name="Email" required></p>
-             </p>
-             <p>
-              <label for="Message">Comments</label><br>
-              <textarea id="message" rows="4" cols="20">
-              </textarea>
-               <label for="quantity">(between 20 and 2000 characters):</label><br>
-              
-              <input type="submit"style=color:blue>
+                <input type="text"id="Email" value="Email" required></p>
+              </p>
+              <p>
+              <input type="text" id="adress" value="Adress">
+              </p>
+             <p><input type="text" value="phone number"></p> <br> 
+            <input type="text" value=Message style="width: 100px;">
+             <label for="textarea"></label> </label><br>
+             <input type="submit">
+  </section>        
 </body>
 </html>

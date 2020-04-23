@@ -1,0 +1,85 @@
+body{
+
+    
+}
+header{
+     font-style: oblique;
+     text-decoration: beige;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     border: 2px;
+     margin: 10px ;
+     border: none;
+ }   
+
+.navigation{
+    margin: auto;
+    height: 80px;
+    padding: 30px;
+    
+    }
+    nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    }
+    a{
+       margin: 20px ;
+       text-decoration: none;
+       font-family: Arial, Helvetica, sans-serif;
+       color: black;
+    }
+    .container{
+        text-align: center;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: black;
+      
+    
+       
+    }
+    
+    i{
+       align-content: space-between; 
+       padding: 10px; 
+       border: 1px solid;
+       margin: 10px;
+       color: white;
+       margin-right: 30px ;
+    }
+    h6{
+        color: white;
+        margin-right: 380px;
+         margin-bottom: -100px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 14px;
+         font-weight: normal;
+         line-height: 1;
+    }
+    img.HAIR2.jpg{
+        border: 2px solid;
+    }
+    h1{ 
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: black;
+        color: white;
+        width: 500px;
+        height: 35px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 450px ;
+        
+    }
