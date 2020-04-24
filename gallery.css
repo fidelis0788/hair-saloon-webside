@@ -18,14 +18,10 @@ body{
     
 }
 img{
-    border: 2px solid;
     margin-left:  10px 10px;
-
-}
-div{
     margin: 10px;
-    
 }
+
 .navigation{
     margin: auto;
     height: 80px;
@@ -77,7 +73,7 @@ div{
          line-height: 1;
          margin-left: -50px;
      }
-     h1{
+     header{
      font-style: oblique;
      display: flex;
      flex-direction: row;
@@ -86,7 +82,7 @@ div{
      border: 2px;
      margin: 10px ;
      background-color: none;
-     border: none;
+     border: none !important;
     }
     H2{ 
         
@@ -97,6 +93,5 @@ div{
         margin-left: 800px;
         padding: 10px;
         margin-bottom: 20px;
-
-   
     }
+    
