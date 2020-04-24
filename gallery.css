@@ -1,14 +1,16 @@
-
+body{
+    min-width: 960px;
+    margin: 0;
+}
 .image{
     display:  grid;
     grid-template-columns: 25% 25% 25%;
      padding: 30px;
     margin: 5px;
-    justify-content: center;
     align-items: center;
-    margin-left: 150px;
     width: 1200px;
     margin-top: 20px;
+    justify-content: center;
     
 }
 img{
@@ -20,6 +22,7 @@ img{
     margin: auto;
     height: 80px;
     padding: 30px;
+    
     
     }
     nav{
@@ -43,9 +46,10 @@ img{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 2000px;
+        width: 1410px;
         background-color: black;
         margin-left: none;
+        margin-right: 200px;
        
     }
     
@@ -66,6 +70,7 @@ img{
          font-weight: normal;
          line-height: 1;
          margin-left: -50px;
+       
      }
      header{
      font-style: oblique;
@@ -79,13 +84,14 @@ img{
      border: none !important;
     }
     H2{ 
-        
+        display: flex;
+        justify-content: center;
         color: white;
         background-color: black;
         text-align: center;
-        width: fit-content;
-        margin-left: 700px;
+        width: 300px;
         padding: 10px;
         margin-bottom: 20px;
+        margin-left: 450px;
     }
     
