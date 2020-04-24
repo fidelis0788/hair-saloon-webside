@@ -1,0 +1,102 @@
+body{
+    margin-left: auto;
+    width: auto;
+    
+    
+}
+
+.image{
+    display:  grid;
+    grid-template-columns: 25% 25% 25%;
+     padding: 30px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    width: 1200px;
+    margin-top: 20px;
+    
+}
+img{
+    border: 2px solid;
+    margin-left:  10px 10px;
+
+}
+div{
+    margin: 10px;
+    
+}
+.navigation{
+    margin: auto;
+    height: 80px;
+    padding: 30px;
+    
+    }
+    nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    }
+    a{
+       margin: 20px ;
+       text-decoration: none;
+       font-family: Arial, Helvetica, sans-serif;
+       color: black;
+    }
+
+       .icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 2000px;
+        background-color: black;
+        margin-left: none;
+       
+    }
+    
+    i{
+       align-content: space-between; 
+       padding: 10px; 
+       border: 1px solid;
+       margin: 10px;
+       color: white;
+      
+    }
+    p{
+         color: white;
+         margin-right: 620px;
+         margin-bottom: -100px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 14px;
+         font-weight: normal;
+         line-height: 1;
+         margin-left: -50px;
+     }
+     h1{
+     font-style: oblique;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     border: 2px;
+     margin: 10px ;
+     background-color: none;
+     border: none;
+    }
+    H2{ 
+        
+        color: white;
+        background-color: black;
+        text-align: center;
+        width: fit-content;
+        margin-left: 800px;
+        padding: 10px;
+        margin-bottom: 20px;
+
+   
+    }
