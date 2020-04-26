@@ -87,3 +87,46 @@
       color:white;
       padding: 20px;
    }
+   @media(max-width:756px){
+      nav{
+         display: flex;
+         float: left;
+         margin: auto;
+         height: 200px;
+     }
+     a{
+         display: block;
+         
+     }
+     ul{
+         float:left;
+         margin-left: none;
+         margin-left: -300px;
+     }
+      .icon{
+            display: flex;
+            flex-direction: column;
+            border: none;
+            padding: 5px;
+            background-color: none;
+           
+        }         
+      i{
+         border: none;
+        }
+      footer{
+         margin-bottom: 5px;
+         font-size: smaller;
+         margin-right: 0;
+       
+      }  
+      input{
+         width: 100px;
+         border: 1px solid;
+         margin-left: 20px;
+      
+      }
+      
+      }
+
+   }
