@@ -1,0 +1,36 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    display: inline-grid ;
+grid-template-columns: 400px 200px;
+border: 1px solid;
+width: 1000px;
+
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+li a{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 10px;
+}
+div{
+   
+  margin-left: 30px;
+  width: 500px;
+}
