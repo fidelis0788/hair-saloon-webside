@@ -74,8 +74,8 @@ div{
         font-weight: normal;
         line-height: 1;
         margin-left: -50px;
-      
-
+    }
+    
  
  @media(max-width: 756px){
      li{
@@ -126,4 +126,3 @@ div{
         margin-bottom: 5px;
  }
     }
-}
